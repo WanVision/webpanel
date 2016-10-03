@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+  resources :sessions, :only => [:new, :create, :destroy]
+   match '/signup',  :to => 'pages#new'
+  match '/signin',  :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
+
   get 'sessions/new'
 
   get 'users/new'

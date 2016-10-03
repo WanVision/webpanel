@@ -4,8 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :authorize
   protected
-  def authorize
-	redirect_to '/pages/login' 
+  def authorize 
   end
   def dashboard
   end
