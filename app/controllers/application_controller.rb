@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
   before_action :authorize
   protected
   def authorize
+	redirect_to '/pages/login' 
   end
   def dashboard
   end

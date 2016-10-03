@@ -8692,3 +8692,2091 @@ Processing by ApiController#i18n as JSON
   Parameters: {"locale"=>"site-en"}
   Rendered app/assets/i18n/site-en.json (0.1ms)
 Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.8.252.36 at 2016-10-03 17:09:13 +0200
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:09:13 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Completed 500 Internal Server Error in 8ms
+
+NameError (undefined local variable or method `login_url' for #<DashboardController:0x00562ae20d8a28>):
+  app/controllers/application_controller.rb:8:in `authorize'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.9ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.0ms)
+
+
+Started GET "/" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:28 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:29 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:34 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:31:34 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:11 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:12 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:12 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:12 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:12 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:12 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:12 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:32:13 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:34:42 +0200
+Processing by PagesController#login as HTML
+  Rendered pages/login.html.erb within layouts/pages (2.7ms)
+Completed 200 OK in 483ms (Views: 483.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fontawesome/css/font-awesome.min.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/simple-line-icons/css/simple-line-icons.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/animate.css/animate.min.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/whirl/dist/whirl.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/base.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/pages.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/vendor.assets.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/app.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/fonts.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/application.css?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/modernizr/modernizr.custom.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/jQuery-Storage-API/jquery.storageapi.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/jquery.easing/js/jquery.easing.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/screenfull/dist/screenfull.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/animo.js/animo.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/slimScroll/jquery.slimscroll.min.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/jquery-localize-i18n/dist/jquery.localize.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/base.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/pages.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/app.init.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/custom/custom.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/bootstrap-start.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/calendar.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/chart-easypie.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/chart-knob.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/chart.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/chartist.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/clear-storage.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/classyloader.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/color-picker.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/constants.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-datatable.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-flot.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-forms.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-jqcloud.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-jqgrid.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-nestable.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-panels.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-search.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-sortable.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-upload.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-vector-map.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-wizard.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/demo/demo-xeditable.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/flatdoc.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/fullscreen.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/gmap.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/imagecrop.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/load-css.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/localize.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/morris.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/maps-vector.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/navbar-search.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/notify.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/now.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/panel-tools.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/play-animation.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/porlets.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/rickshaw.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/select2.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/sidebar.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/skycons.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/slimscroll.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/sparkline.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/sweetalert.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/table-checkall.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/toggle-state.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/tour.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/trigger-resize.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/modules/utils.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/assets/angle/logo.png" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+
+
+Started GET "/api/i18n/site-en.json" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 185.8.252.36 at 2016-10-03 17:34:43 +0200
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendered app/assets/i18n/site-en.json (0.0ms)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:35:22 +0200
+
+SyntaxError (/root/webpanel/webpanel/app/controllers/application_controller.rb:8: unknown regexp options - lg):
+  app/controllers/application_controller.rb:8: unknown regexp options - lg
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.8ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.6ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:35:24 +0200
+
+SyntaxError (/root/webpanel/webpanel/app/controllers/application_controller.rb:8: unknown regexp options - lg):
+  app/controllers/application_controller.rb:8: unknown regexp options - lg
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:36:43 +0200
+Processing by PagesController#login as HTML
+Redirected to 
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `delete' for nil:NilClass):
+  app/controllers/application_controller.rb:8:in `authorize'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.9ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:52 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:53 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:37:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:00 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:00 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:00 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:00 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:00 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:00 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:38:01 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:42:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:43:25 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:45:12 +0200
+Processing by PagesController#login as HTML
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"login", :controller=>"pages_controller"}):
+  app/controllers/application_controller.rb:8:in `authorize'
+
+
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.6ms)
+  Rendered /root/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.6ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:54 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:55 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:56 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:58 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:54:58 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000_url/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:43 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:44 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:44 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:44 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:44 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 17:59:44 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:30 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:31 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+
+
+Started GET "/dashboard/dashboard_v1" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by DashboardController#dashboard_v1 as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:34 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:35 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:35 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/login" for 185.8.252.36 at 2016-10-03 18:02:35 +0200
+Processing by PagesController#login as HTML
+Redirected to http://130.117.45.13:3000/pages/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
